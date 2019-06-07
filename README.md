@@ -11,3 +11,4 @@ It takes too much time...
 ## play
 
     docker run -it #{name} bash
+    docker run -v ${PWD}:/mnt -it truffleruby-demo bash
